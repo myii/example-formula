@@ -12,23 +12,23 @@
 ---
 Debian:
   pkg:
-    name: TEMPLATE-debian
-  config: /etc/TEMPLATE.d/custom.conf
+    name: example-debian
+  config: /etc/example.d/custom.conf
 
 RedHat:
   pkg:
-    name: TEMPLATE-redhat
-  config: /etc/TEMPLATE.conf
+    name: example-redhat
+  config: /etc/example.conf
 
 Suse:
   pkg:
-    name: TEMPLATE-suse
+    name: example-suse
 
 Gentoo: {}
 
 Arch:
   pkg:
-    name: TEMPLATE-arch
+    name: example-arch
   service:
     name: service-arch
 
